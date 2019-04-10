@@ -1,5 +1,6 @@
 @extends('layout')
 
+@section('title','inscription')
 
 @section('contenu')
 	<form action="/inscription" method="post">

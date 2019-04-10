@@ -11,10 +11,15 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//Route::resource('employees','EmployeeController');
+//Route::get('/documents','DocumentController@form')->name('documents.form');
+//Route::post('/parse','DocumentController@parse')->name('parse.parse');
+//Route::post('/replace','DocumentController@replace')->name('replace.replace');
+Route::resource('files','FileController');
+//Route::get('/','ControllerCSV@index');
+//Route::post('/form', 'ControllerCSV@store');
 
+/*Route::get('/', 'PagesController@home');
 
 Route::get('/inscription',function() {
 	return view('inscription');
@@ -22,4 +27,4 @@ Route::get('/inscription',function() {
 
 Route::post('/inscription',function(){
 	return "inscription envoyé" ;
-});
+});*/

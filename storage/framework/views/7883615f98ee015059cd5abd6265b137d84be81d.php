@@ -1,4 +1,6 @@
 <?php /* /home/cedric/website/resources/views/inscription.blade.php */ ?>
+<?php $__env->startSection('title','inscription'); ?>
+
 <?php $__env->startSection('contenu'); ?>
 	<form action="/inscription" method="post">
 		<?php echo e(csrf_field()); ?>
