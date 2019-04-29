@@ -6,6 +6,17 @@
       0 => 'BeyondCode\\DumpServer\\DumpServerServiceProvider',
     ),
   ),
+  'chumper/zipper' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Chumper\\Zipper\\ZipperServiceProvider',
+    ),
+    'aliases' => 
+    array (
+      'Zipper' => 'Chumper\\Zipper\\Zipper',
+    ),
+  ),
   'fideloper/proxy' => 
   array (
     'providers' => 
